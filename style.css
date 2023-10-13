@@ -1,0 +1,158 @@
+@media (min-width: 1000px) {
+  .carousel-item img {
+    height: 600px;
+  }
+  .search-bar {
+    margin-left: 250px;
+    margin-right: 250px;
+  }
+  .video-session{
+    margin: 0px 100px; 
+  }
+  iframe{
+    height: 300px;
+  }
+}
+/* .container-fluid{
+  margin: 0;
+  padding: 0;
+} */
+.row {
+  margin-top: 20px;
+}
+.search-bar {
+  border: 1px solid rgb(170, 170, 170);
+  padding: 20px;
+  padding-bottom: 22px;
+}
+.form-control {
+  border-radius: 0;
+  background-color: rgb(212, 212, 212);
+}
+.search-btn {
+  background-color: rgb(133, 40, 40);
+  color: white;
+  border-radius: 0;
+}
+.search-btn:hover {
+  background-color: rgb(133, 40, 40);
+  color: white;
+}
+.menu-section {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card {
+  margin: 20px;
+  padding: 0;
+  border-radius: 0;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  position: relative;
+}
+.card:hover {
+  transform: scale(1.1);
+}
+.card img {
+  /* padding: 10px; */
+  border-radius: 0;
+  height: 200px;
+}
+.card-button {
+  padding: 5px 20px;
+  border-radius: 20px;
+  color: white;
+  border: none;
+  background: linear-gradient(45deg, #69eb32, #1d7235);
+  cursor: pointer;
+}
+.price {
+  position: absolute;
+  font-weight: bold;
+  right: 50px;
+ 
+  color: rgb(126, 25, 25);
+}
+
+
+.card-bottom {
+  background-color: rgb(133, 40, 40);
+  color: white;
+  font-size: small;
+}
+
+.card-bottom img {
+  width: 14px;
+  height: 14px;
+}
+.video-session{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.video-session p{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.image-container {
+  position: relative;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 50px;
+  font-size: 16px; 
+  font-weight: bold;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif /* Font family */
+}
+
+.footer-content {
+  background-color: rgb(26, 24, 24);
+
+  padding-top: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.footer-description {
+  margin-top: 10px;
+}
+.footer-description h6 {
+  font-size: 22px;
+  font-weight: lighter;
+}
+.footer-description p {
+  font-size: 14px;
+  padding: 20px 0px;
+}
+.footer-link {
+  display: flex;
+  flex-direction: column;
+}
+.footer-link a {
+  font-size: 14px;
+  font-weight: lighter;
+  text-decoration: none;
+  color: white;
+  margin-top: 8px;
+}
+
+.footer-end {
+  background-color: rgb(26, 24, 24);
+  width: 100%;
+  height: 50px;
+}
